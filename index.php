@@ -7,7 +7,7 @@ $uri = urldecode(
 );
 
 
-if ($uri === '/' || $uri === '' || $uri === '/index.php') {
+if ($uri === '/' || $uri === '' || $uri === '//index.php') {
     $uri = '/home.php';
 }
 
